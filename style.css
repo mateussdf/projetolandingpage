@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    font-family: "inter";
+}
+#logo{
+    width: 125px;
+    margin-top: 52px;
+    margin-left: 56px;
+    height: 62px;
+}
+#titulo-MenuSuperior{
+    width: 536px;
+    height: 102px;
+    margin-top: 102px;
+    margin-left: 172px;
+}
+#texto-MenuSuperior{
+    width: 536px;
+    height: 90px;
+    margin-left: 172px;
+    padding-bottom: 100px;
+}
+#menu-Superior{
+    background-image: url(imagens/fundo-MenuSuperior.svg);
+    color:aliceblue;
+
+}
+#menu-informacional{
+    background-color: #eaece5;
+    display: grid;
+    grid-auto-flow: column;
+    columns:auto;
+
+}
+#secao-video{
+    display: grid;
+    grid-auto-flow: column;
+    columns:auto;
+}
+.icone{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    padding: 25px;
+}
+.texto-informativo{
+    display: flex;
+    align-items: center;
+
+}
+#titulo-video{
+    color: #247BA0;
+    margin-top: 75px;
+}
+#texto-video{
+    color: #383838;
+}
+#video{
+    margin: 50px 25px 50px 100px;
+}
+
+#carrossel{
+    background-color: #247BA0;
+    padding: 50px;
+}
+
+#titulo-carrossel{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+#div-cards{
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 25px;
+}
+.card{
+    margin-left: 50px;
+}
+
+#seta-esquerda{
+    display: none;
+}
+
+#Bruna{
+    display: none;
+}
+
+.setas{
+     margin-top: 55%;
+     cursor: pointer;
+}
+.setas:hover{
+    transform:translateY(-7px);
+    transition-duration: 0.25s;
+}
+
+#formulario{
+    text-align: center;
+}
+
+#titulo-formulario{
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
+}
+
+input{
+    background-color: #EAECE5;
+    width: 300px;
+    height: 40px;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button{
+    margin-top: 25px;
+    background-color: #247BA0;
+    width: 335px;
+    height: 53px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #318fb8;
+    color:white;
+    transform: translateY(-7px);
+    transition-duration: 0.25s;
+    box-shadow: 0px 15px 20px #05103081;
+}
